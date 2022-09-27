@@ -1,5 +1,14 @@
 <template>
-    <div class="cesium">
-        <h1>This is an cesium page</h1>
+    <div class="cesium-view">
+        <CesiumMap />
+        <CesiumTools />
+        <DrawTools />
     </div>
 </template>
+<script>
+export default {
+    name: 'CesiumView',
+    components: {},
+};
+</script>
+<style lang="scss" scoped></style>
