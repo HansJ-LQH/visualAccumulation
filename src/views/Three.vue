@@ -1,5 +1,12 @@
 <template>
-    <div class="three">
-        <h1>This is an Three.js page</h1>
+    <div class="three-view">
+        <ThreeContainer />
     </div>
 </template>
+<script>
+export default {
+    name: 'ThreeView',
+    components: {},
+};
+</script>
+<style lang="scss" scoped></style>

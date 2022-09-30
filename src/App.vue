@@ -1,8 +1,7 @@
 <template>
     <div id="app">
         <div id="nav">
-            <router-link to="/">Home</router-link> |
-            <router-link to="/three">Three</router-link> |
+            <router-link to="/">Home</router-link> | <router-link to="/three">Three</router-link> |
             <router-link to="/mapbox">Mapbox</router-link> |
             <router-link to="/cesium">Cesium</router-link> |
             <router-link to="/leaflet">Leaflet</router-link>
@@ -21,8 +20,12 @@
 }
 
 #nav {
-    padding: 30px;
-
+    position: fixed;
+    right: 85px;
+    top: 0;
+    padding: 12px;
+    background-color: rgba($color: #ffffff, $alpha: 0.5);
+    z-index: 10;
     a {
         font-weight: bold;
         color: #2c3e50;
