@@ -2,6 +2,7 @@
     <div id="app">
         <div id="nav">
             <router-link to="/">Home</router-link> | <router-link to="/three">Three</router-link> |
+            <router-link to="/canvas">Canvas</router-link> |
             <router-link to="/mapbox">Mapbox</router-link> |
             <router-link to="/cesium">Cesium</router-link> |
             <router-link to="/leaflet">Leaflet</router-link>
