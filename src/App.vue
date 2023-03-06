@@ -5,7 +5,8 @@
             <router-link to="/canvas">Canvas</router-link> |
             <router-link to="/mapbox">Mapbox</router-link> |
             <router-link to="/cesium">Cesium</router-link> |
-            <router-link to="/leaflet">Leaflet</router-link>
+            <router-link to="/leaflet">Leaflet</router-link> |
+            <router-link to="/chatGPT">ChatGPT</router-link>
         </div>
         <router-view />
     </div>
