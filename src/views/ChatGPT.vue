@@ -37,7 +37,7 @@
 <script>
 import { Configuration, OpenAIApi } from 'openai';
 
-const CHAT_GPT_API_KEY = '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';
+const CHAT_GPT_API_KEY = '';
 
 export default {
     name: 'ChatGPT',
